@@ -1,7 +1,7 @@
 # 100 Days of New Programming Languages
 
 After learning that Brian Kernighan <a href="https://youtu.be/O9upVbGSBFo?t=3718">rewrites the same program in as many programming languages as possible</a>, I was inspired to try the same thing. The challenge is to take a simple text formatter - one that reads a text file, formats it so that each line is no more than 70 characters, then writes it to StdOut - and rewrite it in as many programming languages as possible until March 16th, 2021, while being employed and having a life 
-😂.
+😂. The text file I'll be working with contains a poem, Nemesis, by my favorite author of all time: HP Lovecraft.
 
 I'll be including my review of my experience using the programming language in this README doc and give it a score from 0 - 10, which will also take into account my experience navigating its respective documentation. Please note that these are not judgments of the programming language as a whole; it's moreso a reflection of how well-suited that language is for this particular task, and what my experiences are trying to pick it up as a total noob.
 
