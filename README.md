@@ -73,3 +73,36 @@ end
 Ruby is my third programming language, and it's the language the I use professionally. As with many programmers, it is often difficult to say goodbye to your first programming language when your first job requires you to use a different language. When I first learned Ruby, I found myself comparing it to Python incessantly, and hated how it violated so much of what Pythonists consider beautiful; but then I grew up and learned to accept Ruby's quirkiness which allows for so much flexibility and different coding styles, and therefore, different ways of thinking - but I digress.
 
 This task was a breeze with Ruby: no imports needed, dangerous methods (methods with a ! suffix) conveniently eliminate the need to reassign variables, and of course, being able to pass a <a href="https://www.rubyguides.com/2016/02/ruby-procs-and-lambdas/">proc</a> - one of my favorite features of Ruby - to `File.open`, which eliminates the need to manually close files is always appreciated. 10/10 experience.
+
+## Javascript (9/10)
+```javascript
+#!/usr/local/bin/node
+
+const fs = require("fs")
+
+function main() {
+    let fileName = process.argv[2]
+
+    var text = fs.readFileSync(fileName, "utf-8") 
+
+    text = text.replace(/^\s+/g, "")
+    text = text.replace(/\s+/g, " ")
+    text = text.replace(/\s+$/g, "")
+
+    var [i, j] = [0, 69]
+
+    while (j < text.length) {
+        console.log(text.slice(i, j))
+        i += 69
+        j += 69
+    }
+
+    console.log(text.slice(i, text.length))
+}
+
+if (require.main === module) {
+    main()
+}
+```
+
+JavaScript isn't the language I think of when it comes to scripting, but I was pleasantly surprised with how easy it was to leverage the `fs` file to do a basic file read as well as grab command-line arguments. When it comes to the regex, I'm honestly not a big fan of the /regex/ syntax, nor am I a big fan of having to think of which modifier to append to my regex pattern, but it's a very minor complaint. Additionally, destructuring assignment in JavaScript is a little weird to me, namely having to do `var [a, b] = [1, 2]` rather than simply `var a, b = 1, 2`, but perhaps JavaScript has good reason for doing it this way. Overall though, writing this program with NodeJS was incredibly quick and easy: 9/10.
