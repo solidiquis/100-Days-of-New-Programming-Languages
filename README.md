@@ -9,8 +9,6 @@ As of today, I'm pretty proficient with four programming languages: Python, Ruby
 
 I'm particularly excited to get my hands dirty with the more niche programming languages like Haskell, Elixir, and D - so if anyone wants me to review their favorite obscure programming language, write up an issue! And to fans of Brainfuck, Befunge, and Malbolge: I am not masochistic enough to subject myself to the pains of learning those particular programming languages lol.
 
----
-
 ## Python (10/10)
 
 ```Python
